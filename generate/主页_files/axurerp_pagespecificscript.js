@@ -10,7 +10,7 @@ $axure.eventManager.click('u11', function(e) {
 
 if (true) {
 
-	self.location.href=$axure.globalVariableProvider.getLinkUrl('页面_1.html');
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('学生模块.html');
 
 }
 });
