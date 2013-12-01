@@ -89,6 +89,10 @@ div {
     
 }
 
+.u3_text_sketch {
+    font-family: 'Applied Font';
+}
+
 .u4 {
     position:absolute;
     left:405px;
@@ -121,6 +125,10 @@ div {
     
 }
 
+.u5_text_sketch {
+    font-family: 'Applied Font';
+}
+
 .u6 {
     position:absolute;
     left:405px;
@@ -151,6 +159,10 @@ div {
     font-weight:normal;
     text-decoration:none;
     
+}
+
+.u7_text_sketch {
+    font-family: 'Applied Font';
 }
 
 .u8 {
@@ -219,6 +231,10 @@ div {
     
 }
 
+.u11_text_sketch {
+    font-family: 'Applied Font';
+}
+
 .u12 {
     position:absolute;
     left:546px;
@@ -235,5 +251,9 @@ div {
     font-weight:normal;
     text-decoration:none;
     
+}
+
+.u12_text_sketch {
+    font-family: 'Applied Font';
 }
 

@@ -8,9 +8,21 @@ gv_vAlignTable['u4'] = 'top';gv_vAlignTable['u8'] = 'top';gv_vAlignTable['u10'] 
 u11.style.cursor = 'pointer';
 $axure.eventManager.click('u11', function(e) {
 
-if (true) {
+if ((GetWidgetText('u3')) == ('student')) {
 
 	self.location.href=$axure.globalVariableProvider.getLinkUrl('学生模块.html');
+
+}
+else
+if ((GetWidgetText('u3')) == ('teacher')) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('教师模块.html');
+
+}
+else
+if ((GetWidgetText('u3')) == ('officer')) {
+
+	self.location.href=$axure.globalVariableProvider.getLinkUrl('教务人员模块.html');
 
 }
 });
