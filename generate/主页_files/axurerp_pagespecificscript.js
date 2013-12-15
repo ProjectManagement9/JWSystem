@@ -4,6 +4,24 @@ $axure.eventManager.pageLoad(
 function (e) {
 
 });
+
+$axure.eventManager.focus('u3', function(e) {
+
+if (true) {
+
+SetWidgetFormText('u3', '');
+
+}
+});
+
+$axure.eventManager.blur('u3', function(e) {
+
+if ((GetWidgetText('u3')) == ('')) {
+
+SetWidgetFormText('u3', 'account number');
+
+}
+});
 gv_vAlignTable['u4'] = 'top';gv_vAlignTable['u8'] = 'top';gv_vAlignTable['u10'] = 'center';gv_vAlignTable['u1'] = 'center';gv_vAlignTable['u6'] = 'top';gv_vAlignTable['u2'] = 'top';
 u11.style.cursor = 'pointer';
 $axure.eventManager.click('u11', function(e) {
